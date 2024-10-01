@@ -1,10 +1,11 @@
 import React from 'react';
-import './Header.css'; // Optional: For styling
+import '../styles/Header.css';
 
 function Header() {
   return (
     <header>
-      <h1>To-Do List</h1>
+        
+      <h1>This is the Header</h1>
       <p>Your tasks organized</p>
     </header>
   );
