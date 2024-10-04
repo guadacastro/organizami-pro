@@ -4,9 +4,12 @@ import '../styles/Header.css';
 function Header() {
   return (
     <header>
-        
-      <h1>This is the Header</h1>
-      <p>Your tasks organized</p>
+      <div className="bg-blue-600">
+        <h1 className=" text-3xl font-bold underline">
+          Hello :)
+        </h1>
+      </div>
+      
     </header>
   );
 }
