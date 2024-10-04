@@ -1,1 +1,22 @@
 /* Header.css */
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.box h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #343a40;
+}
+
+
+.box ul {
+    display: flex;
+    list-style: none;
+    gap: 10em;
+}

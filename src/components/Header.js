@@ -4,10 +4,16 @@ import '../styles/Header.css';
 function Header() {
   return (
     <header>
-      <div className="bg-blue-600">
-        <h1 className=" text-3xl font-bold underline">
-          Hello :)
-        </h1>
+      <div className="box">
+        <div>Logo</div>
+        <div>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div>login</div>
       </div>
       
     </header>
