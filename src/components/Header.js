@@ -16,7 +16,7 @@ function Header() {
           <li>Login</li>
           <li>Sign Up</li>
         </ul>
-      
+    
       </div>
     </header>
   );
