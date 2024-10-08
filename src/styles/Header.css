@@ -1,7 +1,5 @@
 /* Header.css */
 .box {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: #f8f9fa;
@@ -19,4 +17,9 @@
     display: flex;
     list-style: none;
     gap: 10em;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
 }
